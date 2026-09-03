@@ -69,11 +69,9 @@ NarcoNetWatch/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/NarcoNetWatch.git
+git clone https://github.com/Prathamgrover15/NarcoNetWatch.git
 cd NarcoNetWatch
 ```
-
-Replace `YOUR-USERNAME` with the GitHub username that owns the repository.
 
 ### 2. Start the backend
 
