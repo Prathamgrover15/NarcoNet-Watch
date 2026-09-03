@@ -1,0 +1,176 @@
+[
+  {
+    "post_id": "p001",
+    "account": "user_xyz",
+    "text": "got that ice ready, hmu",
+    "timestamp": "2026-08-20T10:00:00",
+    "location": "Delhi",
+    "risk_score": 0.82,
+    "flagged_terms": [
+      "ice",
+      "hmu"
+    ],
+    "connections": [
+      "user_abc",
+      "user_def"
+    ],
+    "status": "Flagged"
+  },
+  {
+    "post_id": "p002",
+    "account": "user_abc",
+    "text": "delivery ready tonight",
+    "timestamp": "2026-08-20T11:30:00",
+    "location": "Delhi",
+    "risk_score": 0.67,
+    "flagged_terms": [
+      "delivery"
+    ],
+    "connections": [
+      "user_xyz"
+    ],
+    "status": "Under Investigation"
+  },
+  {
+    "post_id": "p003",
+    "account": "user_def",
+    "text": "package confirmed, delivery tonight",
+    "timestamp": "2026-08-20T13:15:00",
+    "location": "Delhi",
+    "risk_score": 0.74,
+    "flagged_terms": [
+      "package",
+      "delivery"
+    ],
+    "connections": [
+      "user_xyz"
+    ],
+    "status": "False Positive"
+  },
+  {
+    "post_id": "p004",
+    "account": "user_night",
+    "text": "meet at the usual spot for the drop, price confirmed",
+    "timestamp": "2026-08-21T09:15:00",
+    "location": "Mumbai",
+    "risk_score": 0.85,
+    "flagged_terms": [
+      "meet",
+      "drop",
+      "price"
+    ],
+    "connections": [
+      "user_ghost",
+      "user_king"
+    ],
+    "status": "Flagged"
+  },
+  {
+    "post_id": "p005",
+    "account": "user_ghost",
+    "text": "route confirmed, quantity ready for delivery",
+    "timestamp": "2026-08-21T10:40:00",
+    "location": "Mumbai",
+    "risk_score": 0.88,
+    "flagged_terms": [
+      "route",
+      "quantity",
+      "delivery"
+    ],
+    "connections": [
+      "user_night",
+      "user_shadow"
+    ],
+    "status": "Flagged"
+  },
+  {
+    "post_id": "p006",
+    "account": "user_king",
+    "text": "sample_codeword ready, meet tonight",
+    "timestamp": "2026-08-21T14:05:00",
+    "location": "Bengaluru",
+    "risk_score": 0.79,
+    "flagged_terms": [
+      "sample_codeword",
+      "meet"
+    ],
+    "connections": [
+      "user_night",
+      "user_shadow"
+    ],
+    "status": "Under Investigation"
+  },
+  {
+    "post_id": "p007",
+    "account": "user_shadow",
+    "text": "price and quantity confirmed, drop tonight",
+    "timestamp": "2026-08-21T16:30:00",
+    "location": "Bengaluru",
+    "risk_score": 0.91,
+    "flagged_terms": [
+      "price",
+      "quantity",
+      "drop"
+    ],
+    "connections": [
+      "user_ghost",
+      "user_king",
+      "user_xyz"
+    ],
+    "status": "Flagged"
+  },
+  {
+    "post_id": "p008",
+    "account": "user_xyz",
+    "text": "quantity confirmed for the usual order",
+    "timestamp": "2026-08-22T08:00:00",
+    "location": "Delhi",
+    "risk_score": 0.55,
+    "flagged_terms": [
+      "quantity"
+    ],
+    "connections": [
+      "user_shadow"
+    ],
+    "status": "Flagged"
+  },
+  {
+    "post_id": "p009",
+    "account": "user_abc",
+    "text": "just checking in, nothing new here",
+    "timestamp": "2026-08-22T09:20:00",
+    "location": "Delhi",
+    "risk_score": 0.05,
+    "flagged_terms": ["the goods","hmu"],
+    "connections": [ "user_xyz",
+    "user_abc"],
+    "status": "False Positive"
+  },
+  {
+    "post_id": "p010",
+    "account": "user_royal",
+    "text": "loved the new cafe downtown, great coffee",
+    "timestamp": "2026-08-22T11:45:00",
+    "location": "Pune",
+    "risk_score": 0.06,
+    "flagged_terms": ["420"],
+    "connections": ["user_royal",
+    "user_nova"],
+    "status": "Flagged"
+  },
+  {
+    "post_id": "p011",
+    "account": "user_urban",
+    "text": "sample_term available, dm for details",
+    "timestamp": "2026-08-22T13:10:00",
+    "location": "Chennai",
+    "risk_score": 0.45,
+    "flagged_terms": [
+      "sample_term"
+    ],
+    "connections": [
+      "user_abc"
+    ],
+    "status": "Flagged"
+  }
+]
