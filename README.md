@@ -4,6 +4,12 @@
 
 > **Hackathon / educational prototype:** The included records are simulated demonstration data. This project is not a real-world intelligence system and should not be used as a basis for automated enforcement or real-world accusations.
 
+## 🔗 Live Demo
+
+Frontend deployed on Vercel: [https://YOUR-PROJECT-NAME.vercel.app](https://YOUR-PROJECT-NAME.vercel.app)
+
+> Note: the live demo shows the frontend only. The Flask backend needs to be deployed separately (e.g. Render or Railway) and the frontend's API base URL updated to point to it — otherwise the dashboard will show a "backend not running" error.
+
 ## ✨ Features
 
 - Unified admin dashboard
@@ -69,9 +75,11 @@ NarcoNetWatch/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Prathamgrover15/NarcoNetWatch.git
+git clone https://github.com/YOUR-USERNAME/NarcoNetWatch.git
 cd NarcoNetWatch
 ```
+
+Replace `YOUR-USERNAME` with the GitHub username that owns the repository.
 
 ### 2. Start the backend
 
@@ -158,13 +166,11 @@ Example:
   "risk_score": 0.72,
   "flagged_terms": ["example"],
   "connections": ["user_abc"],
-  "status": "Flagged",
-  "platform": "Example Platform",
-  "language": "English"
+  "status": "Flagged"
 }
 ```
 
-The additional `platform` and `language` fields will appear in the dashboard's **Additional Intelligence** section.
+Any additional fields you add to a post beyond these will automatically appear in the dashboard's **Additional Intelligence** section — no frontend changes needed.
 
 ## 🧪 Testing
 
