@@ -4,12 +4,6 @@
 
 > **Hackathon / educational prototype:** The included records are simulated demonstration data. This project is not a real-world intelligence system and should not be used as a basis for automated enforcement or real-world accusations.
 
-## 🔗 Live Demo
-
-Frontend deployed on Vercel: [https://YOUR-PROJECT-NAME.vercel.app](https://YOUR-PROJECT-NAME.vercel.app)
-
-> Note: the live demo shows the frontend only. The Flask backend needs to be deployed separately (e.g. Render or Railway) and the frontend's API base URL updated to point to it — otherwise the dashboard will show a "backend not running" error.
-
 ## ✨ Features
 
 - Unified admin dashboard
